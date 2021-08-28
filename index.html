@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCTI - Login page</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="max__container">
+        <div class="image__container">
+          <div class="head">
+            <i class="fas fa-user-alt big"></i>
+            <br />
+            <br />
+            <h1>LOG IN</h1>
+          </div>
+          <div class="form__container">
+            <form action="POST">
+              <div class="wrap">
+                <label for="username"> <i class="fas fa-user-alt"></i></label>
+                <input class="input__box" type="text" name="username" />
+              </div>
+
+              <div class="wrap">
+                <label
+                  placeholder="Enter a valid username / password"
+                  for="username"
+                  ><i class="fas fa-key"></i
+                ></label>
+                <input
+                  class="input__box"
+                  type="text"
+                  name="password"
+                  required
+                />
+              </div>
+              <br />
+              <div class="wrap reset">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="check"
+                  required
+                  placeholder="Enter a valid Password"
+                />
+                <label class="check" for="remember">Remember Me</label>
+              </div>
+
+              <br />
+
+              <div class="wrap">
+                <button>Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
